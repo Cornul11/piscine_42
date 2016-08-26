@@ -37,11 +37,11 @@ int		ft_strcmp(char *s1, char *s2)
 void	ft_find_forbidden_words(char *str)
 {
 	if (ft_strcmp(str, "president") == 0)
-		ft_putstr("Alert !!!\n");
+		ft_putstr("Alert!!!\n");
 	if (ft_strcmp(str, "attack") == 0)
-		ft_putstr("Alert !!!\n");
+		ft_putstr("Alert!!!\n");
 	if (ft_strcmp(str, "powers") == 0)
-		ft_putstr("Alert !!!\n");
+		ft_putstr("Alert!!!\n");
 }
 
 void	ft_tolowercase(char *str)
